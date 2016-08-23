@@ -1,0 +1,7 @@
+Pseudocode
+Choose a random secret word -----
+replace the chosen word with a series of dashes that has the same number of letters ------
+From the chosen word allow the user around 8 rounds of guesses and during the guess print out messages ---
+Keep a series of the user guess and how many guess are remaining ----
+replace the users input if it is right and put it in place of the dashes
+letter is not the tell the user that input is not part of the word

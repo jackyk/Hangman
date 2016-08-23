@@ -1,0 +1,31 @@
+# find userinput index and compare with myChosen
+    # for letter in myChosen:
+    #     if userinput == letter:
+    #         index = 0
+    #         while index < len(myChosen):
+    #             if myChosen(index) == userinput:
+    #                 word = ''.join(item)
+    #             index +=1
+
+
+
+
+
+
+
+
+
+# checks item and turn to a list and checks if there is a match
+    if myChosen.find(userinput) != -1:
+        findword = [m.start for m in re.finditer(userinput, myChosen)]
+        for x in findword:
+            item[x] = myChosen
+        word = "".join(item)
+        print "Good guess" ,word
+
+
+        guess_indexes = []
+        for index in range(0,len(word_list)):
+            if index in word_list == guess:
+                guess_indexes.append(index())
+        print guess_indexes
